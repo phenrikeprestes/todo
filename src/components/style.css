@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .container{
+    flex-direction: column;
+    background-color: rgb(97, 79, 113);
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  .title{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .input{
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 3px;
+    width: 95%;
+    font-size: 20px;
+    
+
+  }
+
+  .add{
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 50px;
+    background-color: rgb(106, 181, 106);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .clean{
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 50px;;
+    background-color: rgb(154, 81, 81);
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .tarefas{
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .todo{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .remove{
+    float: right;
+    margin-right: 2%;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  .trash{
+    width: 40px;
+    float: right;
+    
+  }
